@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dtech_cad - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\pubin\AppData\Local\Temp\RSP1E6D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"dtech_cad.pch" /Yu"stdafx.h" /FD /GZ /c 
+"D:\TEST\dtech_cad\dtech_cadView.cpp"
+]
+Creating command line "cl.exe @C:\Users\pubin\AppData\Local\Temp\RSP1E6D.tmp" 
+<h3>Output Window</h3>
+Compiling...
+dtech_cadView.cpp
+D:\TEST\dtech_cad\dtech_cadView.cpp(89) : error C2664: 'ShellExecuteA' : cannot convert parameter 2 from 'unsigned short [5]' to 'const char *'
+        Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+dtech_cadView.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
